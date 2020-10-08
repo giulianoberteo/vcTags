@@ -1,6 +1,7 @@
 $vcFQDN = "vcsa01-mgmt.vlabs.local"
 $vcUser = "administrator@vsphere.local"
 $vcPassword = "VMware1!"
+
 $tagCategoriesFile = ".\" + $vcFQDN + "_vcTagCategories.csv"
 $tagFile = ".\" + $vcFQDN + "_vcTags.csv"
 
